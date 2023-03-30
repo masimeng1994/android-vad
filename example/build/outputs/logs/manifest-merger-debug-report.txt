@@ -1,0 +1,207 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/858d08473ed4c2522fc54d995c225f2e/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ce21a6d5fa3083616d980ce081f207f3/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/5cc3413a4c3a9250f25c4ebd96e48cdb/jetified-lottie-3.4.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/273ddfd3bf94db1ebb76b2ebd28a262e/appcompat-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.permissionsdispatcher:permissionsdispatcher:4.8.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/19e1701da3e743f85c5be3fc2c9e6745/jetified-permissionsdispatcher-4.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [:vad] /Users/masimeng/Documents/android-vad/vad/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/d2d2ce9be24d7650f141c9d0d85b9c38/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/f1bba1f691d254d793982e773667b714/fragment-1.3.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c3faf9de3982eb3fb153f91340006af0/jetified-activity-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/1a26c17f8d33c667652a2a01deedfb78/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/764dd623747fd6d9442a9260b1635886/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/be158a83debdbac1f11c2918b43a0e3d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8e47b4ca57f26d252cc97691e4957914/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/08ed8c63683e6dec925e96959b58d0bd/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/2222a15397f11df149d9700e71393a5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/e8cb469c1fab0276f68310aea3a3c2b9/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/693e6e25aae307ca8dcced1cf34f3d8e/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/7c7e0d494a6552ebb4ddee2d58ca8c67/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/86f3996502dc59c3406e3e0f518845d5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/b681bdae60a752244163c539b7845128/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/442b98eb7d55dc4652964567779b913e/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.5.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/3682c5c2f3bfffc6aabb6f6bba4784dc/core-1.5.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/fb5340123f27c75fcba0da44e28bd34e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/543a4292ac3b4618e0e8e5b13bd24b29/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/6ef758f4745c1a7ea94860003ba1f68f/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/94ca2e71acd2bb2023b759435be91ebb/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/2b01733d0b670c8fcd090c5a3dfe2c29/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/bc41db2f4d50b15df4ddfa05e0cbb125/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8506210b109675c98a060bf1dc8d4e85/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/36f8218d7b6dc6b3b3c4d0bb8bd53eff/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c062a58db1b40f0d175c4f190e5eee65/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ab6b2736d86bd799d22f8f989f295912/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/e23324f1a47c1e5321dbc72cac9ef1cf/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/de6c27db2288f9a9d8746fe08789c822/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/401bf27a34b728c2f6ff7ae0fcc9e393/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/6fb98c39a235519d46955d204ee5dd2b/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c3ef14a265c04529b20d1e9aa35f4440/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/b42d12003c7a2812e5acbaca7ad31733/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:4:5-40
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:1-27:12
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:7:5-97
+	android:name
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:8:5-9:63
+	tools:ignore
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:8:22-81
+application
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:11:5-25:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/858d08473ed4c2522fc54d995c225f2e/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/858d08473ed4c2522fc54d995c225f2e/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ce21a6d5fa3083616d980ce081f207f3/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ce21a6d5fa3083616d980ce081f207f3/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/5cc3413a4c3a9250f25c4ebd96e48cdb/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/5cc3413a4c3a9250f25c4ebd96e48cdb/jetified-lottie-3.4.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.5.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/3682c5c2f3bfffc6aabb6f6bba4784dc/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.5.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/3682c5c2f3bfffc6aabb6f6bba4784dc/core-1.5.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8506210b109675c98a060bf1dc8d4e85/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8506210b109675c98a060bf1dc8d4e85/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:screenOrientation
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:16:9-45
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.5.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/3682c5c2f3bfffc6aabb6f6bba4784dc/core-1.5.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:17:9-52
+activity#com.konovalov.vad.example.MainActivity
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:18:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/858d08473ed4c2522fc54d995c225f2e/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/858d08473ed4c2522fc54d995c225f2e/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ce21a6d5fa3083616d980ce081f207f3/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ce21a6d5fa3083616d980ce081f207f3/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/5cc3413a4c3a9250f25c4ebd96e48cdb/jetified-lottie-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/5cc3413a4c3a9250f25c4ebd96e48cdb/jetified-lottie-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/273ddfd3bf94db1ebb76b2ebd28a262e/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/273ddfd3bf94db1ebb76b2ebd28a262e/appcompat-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.permissionsdispatcher:permissionsdispatcher:4.8.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/19e1701da3e743f85c5be3fc2c9e6745/jetified-permissionsdispatcher-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [org.permissionsdispatcher:permissionsdispatcher:4.8.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/19e1701da3e743f85c5be3fc2c9e6745/jetified-permissionsdispatcher-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [:vad] /Users/masimeng/Documents/android-vad/vad/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:vad] /Users/masimeng/Documents/android-vad/vad/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/d2d2ce9be24d7650f141c9d0d85b9c38/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/d2d2ce9be24d7650f141c9d0d85b9c38/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/f1bba1f691d254d793982e773667b714/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/f1bba1f691d254d793982e773667b714/fragment-1.3.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c3faf9de3982eb3fb153f91340006af0/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c3faf9de3982eb3fb153f91340006af0/jetified-activity-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/1a26c17f8d33c667652a2a01deedfb78/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/1a26c17f8d33c667652a2a01deedfb78/jetified-appcompat-resources-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/764dd623747fd6d9442a9260b1635886/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/764dd623747fd6d9442a9260b1635886/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/be158a83debdbac1f11c2918b43a0e3d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/be158a83debdbac1f11c2918b43a0e3d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8e47b4ca57f26d252cc97691e4957914/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8e47b4ca57f26d252cc97691e4957914/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/08ed8c63683e6dec925e96959b58d0bd/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/08ed8c63683e6dec925e96959b58d0bd/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/2222a15397f11df149d9700e71393a5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/2222a15397f11df149d9700e71393a5c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/e8cb469c1fab0276f68310aea3a3c2b9/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/e8cb469c1fab0276f68310aea3a3c2b9/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/693e6e25aae307ca8dcced1cf34f3d8e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/693e6e25aae307ca8dcced1cf34f3d8e/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/7c7e0d494a6552ebb4ddee2d58ca8c67/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/7c7e0d494a6552ebb4ddee2d58ca8c67/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/86f3996502dc59c3406e3e0f518845d5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/86f3996502dc59c3406e3e0f518845d5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/b681bdae60a752244163c539b7845128/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/b681bdae60a752244163c539b7845128/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/442b98eb7d55dc4652964567779b913e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/442b98eb7d55dc4652964567779b913e/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.5.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/3682c5c2f3bfffc6aabb6f6bba4784dc/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.5.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/3682c5c2f3bfffc6aabb6f6bba4784dc/core-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/fb5340123f27c75fcba0da44e28bd34e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/fb5340123f27c75fcba0da44e28bd34e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/543a4292ac3b4618e0e8e5b13bd24b29/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/543a4292ac3b4618e0e8e5b13bd24b29/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/6ef758f4745c1a7ea94860003ba1f68f/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/6ef758f4745c1a7ea94860003ba1f68f/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/94ca2e71acd2bb2023b759435be91ebb/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/94ca2e71acd2bb2023b759435be91ebb/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/2b01733d0b670c8fcd090c5a3dfe2c29/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/2b01733d0b670c8fcd090c5a3dfe2c29/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/bc41db2f4d50b15df4ddfa05e0cbb125/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/bc41db2f4d50b15df4ddfa05e0cbb125/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8506210b109675c98a060bf1dc8d4e85/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/8506210b109675c98a060bf1dc8d4e85/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/36f8218d7b6dc6b3b3c4d0bb8bd53eff/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/36f8218d7b6dc6b3b3c4d0bb8bd53eff/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c062a58db1b40f0d175c4f190e5eee65/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c062a58db1b40f0d175c4f190e5eee65/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ab6b2736d86bd799d22f8f989f295912/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/ab6b2736d86bd799d22f8f989f295912/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/e23324f1a47c1e5321dbc72cac9ef1cf/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/e23324f1a47c1e5321dbc72cac9ef1cf/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/de6c27db2288f9a9d8746fe08789c822/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/de6c27db2288f9a9d8746fe08789c822/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/401bf27a34b728c2f6ff7ae0fcc9e393/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/401bf27a34b728c2f6ff7ae0fcc9e393/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/6fb98c39a235519d46955d204ee5dd2b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/6fb98c39a235519d46955d204ee5dd2b/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c3ef14a265c04529b20d1e9aa35f4440/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/c3ef14a265c04529b20d1e9aa35f4440/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/b42d12003c7a2812e5acbaca7ad31733/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/masimeng/.gradle/caches/transforms-2/files-2.1/b42d12003c7a2812e5acbaca7ad31733/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		ADDED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml
+		INJECTED from /Users/masimeng/Documents/android-vad/example/src/main/AndroidManifest.xml

@@ -12,8 +12,8 @@ import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.konovalov.vad.Vad;
-import com.konovalov.vad.VadConfig;
 import com.konovalov.vad.example.recorder.VoiceRecorder;
+import com.konovalov.vad.example.recorder.VoiceRecorderConfig;
 
 import java.util.LinkedList;
 
@@ -23,29 +23,29 @@ import permissions.dispatcher.RuntimePermissions;
 @RuntimePermissions
 public class MainActivity extends AppCompatActivity implements VoiceRecorder.Listener, View.OnClickListener, AdapterView.OnItemSelectedListener {
 
-    private VadConfig.SampleRate DEFAULT_SAMPLE_RATE = VadConfig.SampleRate.SAMPLE_RATE_16K;
-    private VadConfig.FrameSize DEFAULT_FRAME_SIZE = VadConfig.FrameSize.FRAME_SIZE_160;
-    private VadConfig.Mode DEFAULT_MODE = VadConfig.Mode.VERY_AGGRESSIVE;
+    private VoiceRecorderConfig.SampleRate DEFAULT_SAMPLE_RATE = VoiceRecorderConfig.SampleRate.SAMPLE_RATE_16K;
+    private VoiceRecorderConfig.FrameSize DEFAULT_FRAME_SIZE = VoiceRecorderConfig.FrameSize.FRAME_SIZE_1536;
+//    private VoiceRecorderConfig.Mode DEFAULT_MODE = VoiceRecorderConfig.Mode.VERY_AGGRESSIVE;
 
-    private int DEFAULT_SILENCE_DURATION = 500;
-    private int DEFAULT_VOICE_DURATION = 500;
+//    private int DEFAULT_SILENCE_DURATION = 500;
+//    private int DEFAULT_VOICE_DURATION = 500;
 
     private final String SPINNER_SAMPLE_RATE_TAG = "sample_rate";
     private final String SPINNER_FRAME_SIZE_TAG = "frame_size";
-    private final String SPINNER_MODE_TAG = "mode";
+//    private final String SPINNER_MODE_TAG = "mode";
 
     private FloatingActionButton recordingActionButton;
     private TextView speechTextView;
     private Spinner sampleRateSpinner;
     private Spinner frameSpinner;
-    private Spinner modeSpinner;
+//    private Spinner modeSpinner;
 
     private ArrayAdapter sampleRateAdapter;
     private ArrayAdapter frameAdapter;
-    private ArrayAdapter modeAdapter;
+//    private ArrayAdapter modeAdapter;
 
     private VoiceRecorder recorder;
-    private VadConfig config;
+    private VoiceRecorderConfig config;
     private boolean isRecording = false;
 
 
@@ -54,12 +54,12 @@ public class MainActivity extends AppCompatActivity implements VoiceRecorder.Lis
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        config = VadConfig.newBuilder()
+        config = VoiceRecorderConfig.newBuilder()
                 .setSampleRate(DEFAULT_SAMPLE_RATE)
                 .setFrameSize(DEFAULT_FRAME_SIZE)
-                .setMode(DEFAULT_MODE)
-                .setSilenceDurationMillis(DEFAULT_SILENCE_DURATION)
-                .setVoiceDurationMillis(DEFAULT_VOICE_DURATION)
+//                .setMode(DEFAULT_MODE)
+//                .setSilenceDurationMillis(DEFAULT_SILENCE_DURATION)
+//                .setVoiceDurationMillis(DEFAULT_VOICE_DURATION)
                 .build();
 
         recorder = new VoiceRecorder(this, config);
@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity implements VoiceRecorder.Lis
         frameSpinner.setSelection(getFrameSizes().indexOf(DEFAULT_FRAME_SIZE.name()), false);
         frameSpinner.setOnItemSelectedListener(this);
 
-        modeSpinner = findViewById(R.id.modeSpinner);
-        modeAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, getModes());
-        modeSpinner.setAdapter(modeAdapter);
-        modeSpinner.setTag(SPINNER_MODE_TAG);
-        modeSpinner.setSelection(getModes().indexOf(DEFAULT_MODE.name()), false);
-        modeSpinner.setOnItemSelectedListener(this);
+//        modeSpinner = findViewById(R.id.modeSpinner);
+//        modeAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_dropdown_item, getModes());
+//        modeSpinner.setAdapter(modeAdapter);
+//        modeSpinner.setTag(SPINNER_MODE_TAG);
+//        modeSpinner.setSelection(getModes().indexOf(DEFAULT_MODE.name()), false);
+//        modeSpinner.setOnItemSelectedListener(this);
 
         recordingActionButton = findViewById(R.id.recordingActionButton);
         recordingActionButton.setOnClickListener(this);
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements VoiceRecorder.Lis
 
     private LinkedList<String> getSampleRates() {
         LinkedList<String> result = new LinkedList<>();
-        for (VadConfig.SampleRate sampleRate : VadConfig.SampleRate.values()) {
+        for (VoiceRecorderConfig.SampleRate sampleRate : VoiceRecorderConfig.SampleRate.values()) {
             result.add(sampleRate.name());
         }
         return result;
@@ -103,24 +103,18 @@ public class MainActivity extends AppCompatActivity implements VoiceRecorder.Lis
 
     private LinkedList<String> getFrameSizes() {
         LinkedList<String> result = new LinkedList<>();
-        LinkedList<VadConfig.FrameSize> supportingFrameSizes = Vad.getValidFrameSize(config.getSampleRate());
-
-        if (supportingFrameSizes != null) {
-            for (VadConfig.FrameSize frameSize : supportingFrameSizes) {
-                result.add(frameSize.name());
-            }
-        }
+        result.add(VoiceRecorderConfig.FrameSize.FRAME_SIZE_1536.name());
 
         return result;
     }
 
-    private LinkedList<String> getModes() {
-        LinkedList<String> result = new LinkedList<>();
-        for (VadConfig.Mode mode : VadConfig.Mode.values()) {
-            result.add(mode.name());
-        }
-        return result;
-    }
+//    private LinkedList<String> getModes() {
+//        LinkedList<String> result = new LinkedList<>();
+//        for (VadConfig.Mode mode : VadConfig.Mode.values()) {
+//            result.add(mode.name());
+//        }
+//        return result;
+//    }
 
     private void startRecording() {
         isRecording = true;
@@ -140,21 +134,21 @@ public class MainActivity extends AppCompatActivity implements VoiceRecorder.Lis
 
         switch (String.valueOf(adapterView.getTag())) {
             case SPINNER_SAMPLE_RATE_TAG:
-                config.setSampleRate(VadConfig.SampleRate.valueOf(String.valueOf(sampleRateAdapter.getItem(position))));
+                config.setSampleRate(VoiceRecorderConfig.SampleRate.valueOf(String.valueOf(sampleRateAdapter.getItem(position))));
 
                 frameAdapter.clear();
                 frameAdapter.addAll(getFrameSizes());
                 frameAdapter.notifyDataSetChanged();
                 frameSpinner.setSelection(0);
 
-                config.setFrameSize(VadConfig.FrameSize.valueOf(String.valueOf(frameAdapter.getItem(0))));
+                config.setFrameSize(VoiceRecorderConfig.FrameSize.valueOf(String.valueOf(frameAdapter.getItem(0))));
                 break;
             case SPINNER_FRAME_SIZE_TAG:
-                config.setFrameSize(VadConfig.FrameSize.valueOf(String.valueOf(frameAdapter.getItem(position))));
+                config.setFrameSize(VoiceRecorderConfig.FrameSize.valueOf(String.valueOf(frameAdapter.getItem(position))));
                 break;
-            case SPINNER_MODE_TAG:
-                config.setMode(VadConfig.Mode.valueOf(String.valueOf(modeAdapter.getItem(position))));
-                break;
+//            case SPINNER_MODE_TAG:
+//                config.setMode(VadConfig.Mode.valueOf(String.valueOf(modeAdapter.getItem(position))));
+//                break;
         }
 
         recorder.updateConfig(config);

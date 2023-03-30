@@ -5,12 +5,16 @@ import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.util.Log;
 
+import com.konovalov.vad.example.recorder.VoiceRecorderConfig;
+
 import com.konovalov.vad.Vad;
-import com.konovalov.vad.VadConfig;
+//import com.konovalov.vad.VadConfig;
 import com.konovalov.vad.VadListener;
 
 import static android.media.AudioFormat.CHANNEL_IN_MONO;
 import static android.media.AudioFormat.CHANNEL_IN_STEREO;
+
+import java.io.File;
 
 /**
  * Created by George Konovalov on 11/16/2019.
@@ -20,6 +24,7 @@ public class VoiceRecorder {
     private static final int PCM_CHANNEL = CHANNEL_IN_MONO;
     private static final int PCM_ENCODING_BIT = AudioFormat.ENCODING_PCM_16BIT;
 
+    private VoiceRecorderConfig config;
     private Vad vad;
     private AudioRecord audioRecord;
     private Listener callback;
@@ -29,13 +34,14 @@ public class VoiceRecorder {
 
     private static final String TAG = VoiceRecorder.class.getSimpleName();
 
-    public VoiceRecorder(Listener callback, VadConfig config) {
+    public VoiceRecorder(Listener callback, VoiceRecorderConfig config) {
         this.callback = callback;
-        this.vad = new Vad(config);
+        this.config = config;
+        this.vad = new Vad();
     }
 
-    public void updateConfig(VadConfig config) {
-        vad.setConfig(config);
+    public void updateConfig(VoiceRecorderConfig config) {
+        this.config = config;
     }
 
     public void start() {
@@ -76,13 +82,15 @@ public class VoiceRecorder {
 
     private AudioRecord createAudioRecord() {
         try {
-            final int minBufSize = AudioRecord.getMinBufferSize(vad.getConfig().getSampleRate().getValue(), PCM_CHANNEL, PCM_ENCODING_BIT);
-
-            if (minBufSize == AudioRecord.ERROR_BAD_VALUE) {
+            final int minBufSize = AudioRecord.getMinBufferSize(config.getSampleRate().getValue(), PCM_CHANNEL, PCM_ENCODING_BIT);
+            int frame_size = config.getFrameSize().getValue();
+            if (minBufSize > frame_size) {
+                Log.e(TAG, "minBufSize > frame_size");
                 return null;
             }
-
-            final AudioRecord audioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC, vad.getConfig().getSampleRate().getValue(), PCM_CHANNEL, PCM_ENCODING_BIT, minBufSize);
+            Log.i(TAG, "minBufSize : " + minBufSize);
+            final AudioRecord audioRecord = new AudioRecord(MediaRecorder.AudioSource.MIC, config.getSampleRate().getValue(), PCM_CHANNEL, PCM_ENCODING_BIT, frame_size);
+            Log.i(TAG, "config.getSampleRate().getValue() : " + config.getSampleRate().getValue());
 
             if (audioRecord.getState() == AudioRecord.STATE_INITIALIZED) {
                 return audioRecord;
@@ -111,11 +119,10 @@ public class VoiceRecorder {
         @Override
         public void run() {
             android.os.Process.setThreadPriority(android.os.Process.THREAD_PRIORITY_AUDIO);
-
+            final int minBufSize = AudioRecord.getMinBufferSize(config.getSampleRate().getValue(), PCM_CHANNEL, PCM_ENCODING_BIT);
             while (!Thread.interrupted() && isListening && audioRecord != null) {
-                short[] buffer = new short[vad.getConfig().getFrameSize().getValue() * getNumberOfChannels() * 2];
+                short[] buffer = new short[config.getFrameSize().getValue()];
                 audioRecord.read(buffer, 0, buffer.length);
-
                 detectSpeech(buffer);
             }
         }

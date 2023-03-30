@@ -1,0 +1,19 @@
+# ninja log v5
+1001	1116	1680252018	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+1	1001	1680252018	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+1	884	1680252126	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+884	1021	1680252126	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+0	903	1680252635	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+903	1036	1680252635	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+0	908	1680253136	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+908	1043	1680253136	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+2	1670	1680253526	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+1670	1816	1680253526	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+1	1070	1680255502	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+1070	1186	1680255502	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+1	924	1680255732	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+924	1052	1680255732	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+0	1006	1680255958	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+1006	1141	1680255959	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281
+1	880	1680256866	CMakeFiles/native-lib.dir/native-lib.cpp.o	ffc9a9facdc100a3
+881	1004	1680256866	/Users/masimeng/Documents/android-vad/vad/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	10afa46d8d057281

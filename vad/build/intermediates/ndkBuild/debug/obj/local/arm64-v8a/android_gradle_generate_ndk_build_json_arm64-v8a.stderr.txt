@@ -1,0 +1,1 @@
+/Users/masimeng/Library/Android/sdk/ndk/20.0.5594570/build/core/add-application.mk:88: *** Android NDK: Aborting...    .  Stop.
